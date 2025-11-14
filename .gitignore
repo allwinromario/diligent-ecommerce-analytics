@@ -152,4 +152,5 @@ Thumbs.db
 data/*.csv
 data/*.json
 *.log
+output.csv
 
