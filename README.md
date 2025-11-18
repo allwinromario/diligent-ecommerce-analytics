@@ -378,56 +378,6 @@ python3 main.py --help
               └──────────────┘
 ```
 
-### Indexes (6)
-
-- `idx_orders_customer` - Fast customer lookup
-- `idx_orders_date` - Date range queries
-- `idx_order_items_order` - Order line items
-- `idx_order_items_product` - Product sales
-- `idx_products_category` - Category filtering
-- `idx_payments_order` - Payment lookup
-
----
-
-## ✨ Key Features
-
-### Data Quality
-✅ Realistic synthetic data (names, addresses, emails)  
-✅ Proper foreign key relationships (100% integrity)  
-✅ Business logic (discounts, fees, statuses)  
-✅ Random variability (100-300 records per table)
-
-### Automation
-✅ One-command execution (`python3 main.py`)  
-✅ Modular architecture (reusable components)  
-✅ Skip options for flexible workflows  
-✅ Colored terminal output (better UX)
-
-### Database
-✅ Auto-schema detection from CSV headers  
-✅ Primary and foreign key constraints  
-✅ Performance indexes  
-✅ Data validation and integrity checks
-
-### Analytics
-✅ Multi-table SQL joins (5 tables)  
-✅ 10 pre-built analytical queries  
-✅ CSV export functionality  
-✅ Aggregate functions (SUM, AVG, COUNT)
-
----
-
-## 📊 Performance
-
-| Metric | Value |
-|--------|-------|
-| **Total Execution** | 0.75 seconds |
-| **Data Generation** | 0.1 seconds |
-| **Database Load** | 0.02 seconds |
-| **Query Execution** | 0.05 seconds |
-| **CSV Export** | 0.05 seconds |
-| **Database Size** | 156 KB |
-| **Total Data Volume** | ~275 KB |
 
 ---
 
@@ -502,21 +452,6 @@ git commit -m "Add comprehensive e-commerce data pipeline"
 git push origin main
 ```
 
-### Repository
-
-**URL:** https://github.com/allwinromario/diligent-ecommerce-analytics
-
-**What's Included:**
-- Source code (Python, SQL)
-- Documentation (Markdown)
-- Configuration files
-- License (MIT)
-
-**What's Excluded:** (via .gitignore)
-- Generated files (*.csv, *.db)
-- Python cache (__pycache__)
-- Output files (output.csv)
-
 ---
 
 ## 🤝 Contributing
@@ -528,18 +463,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-**MIT License**
-
-Copyright (c) 2025 Allwin Romario
-
-Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 ---
 
