@@ -153,31 +153,6 @@ Update the README.md with a complete project overview:
 
 ---
 
-### 🎯 How to Use These Prompts
-
-**For Your Own Projects:**
-
-1. **Copy any prompt above** - They're designed to be modular and reusable
-2. **Modify for your domain** - Replace "e-commerce" with your use case
-3. **Run in sequence** - Follow the phases for similar projects
-4. **Customize details** - Adjust table names, columns, or file counts
-
-**Pro Tips:**
-- ✅ Be specific about file formats, schemas, and constraints
-- ✅ Request validation and error checking
-- ✅ Ask for production-ready code with proper error handling
-- ✅ Request documentation alongside code generation
-- ✅ Specify output formats (CSV, JSON, SQL) clearly
-
-**Prompt Engineering Lessons:**
-- 📝 **Numbered requirements** help AI structure responses systematically
-- 📝 **Specific file names** reduce ambiguity
-- 📝 **Request verification** (e.g., "print row counts", "confirm success")
-- 📝 **Ask for clean/professional output** gets better code quality
-- 📝 **Sequential phases** build complex projects step-by-step
-
----
-
 ## 🚀 Quick Start
 
 ```bash
